@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/segfault/Projects/IoFarmer-OpenGL",
+  "command": "/usr/bin/cc    -o CMakeFiles/IoFarmer.dir/main.c.o -c /home/segfault/Projects/IoFarmer-OpenGL/main.c",
+  "file": "/home/segfault/Projects/IoFarmer-OpenGL/main.c",
+  "output": "CMakeFiles/IoFarmer.dir/main.c.o"
+}
+]
