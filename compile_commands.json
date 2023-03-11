@@ -1,8 +1,32 @@
 [
 {
   "directory": "/home/segfault/Projects/IoFarmer-OpenGL",
-  "command": "/usr/bin/cc    -o CMakeFiles/IoFarmer.dir/main.c.o -c /home/segfault/Projects/IoFarmer-OpenGL/main.c",
+  "command": "/usr/bin/cc    -o CMakeFiles/files.dir/files.c.o -c /home/segfault/Projects/IoFarmer-OpenGL/files.c",
+  "file": "/home/segfault/Projects/IoFarmer-OpenGL/files.c",
+  "output": "CMakeFiles/files.dir/files.c.o"
+},
+{
+  "directory": "/home/segfault/Projects/IoFarmer-OpenGL",
+  "command": "/usr/bin/cc    -o CMakeFiles/polygon.dir/polygon.c.o -c /home/segfault/Projects/IoFarmer-OpenGL/polygon.c",
+  "file": "/home/segfault/Projects/IoFarmer-OpenGL/polygon.c",
+  "output": "CMakeFiles/polygon.dir/polygon.c.o"
+},
+{
+  "directory": "/home/segfault/Projects/IoFarmer-OpenGL",
+  "command": "/usr/bin/cc  -I/home/segfault/Projects/IoFarmer-OpenGL/glad/include/glad  -o CMakeFiles/glad.dir/glad/src/glad.c.o -c /home/segfault/Projects/IoFarmer-OpenGL/glad/src/glad.c",
+  "file": "/home/segfault/Projects/IoFarmer-OpenGL/glad/src/glad.c",
+  "output": "CMakeFiles/glad.dir/glad/src/glad.c.o"
+},
+{
+  "directory": "/home/segfault/Projects/IoFarmer-OpenGL",
+  "command": "/usr/bin/cc  -I/home/segfault/Projects/IoFarmer-OpenGL/glad/include/glad  -o CMakeFiles/Graphics.dir/Graphics.c.o -c /home/segfault/Projects/IoFarmer-OpenGL/Graphics.c",
+  "file": "/home/segfault/Projects/IoFarmer-OpenGL/Graphics.c",
+  "output": "CMakeFiles/Graphics.dir/Graphics.c.o"
+},
+{
+  "directory": "/home/segfault/Projects/IoFarmer-OpenGL",
+  "command": "/usr/bin/cc  -I/home/segfault/Projects/IoFarmer-OpenGL/glad/include/glad  -o CMakeFiles/IoFarmer.out.dir/main.c.o -c /home/segfault/Projects/IoFarmer-OpenGL/main.c",
   "file": "/home/segfault/Projects/IoFarmer-OpenGL/main.c",
-  "output": "CMakeFiles/IoFarmer.dir/main.c.o"
+  "output": "CMakeFiles/IoFarmer.out.dir/main.c.o"
 }
 ]

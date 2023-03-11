@@ -63,7 +63,11 @@ CMAKE_BINARY_DIR = /home/segfault/Projects/IoFarmer-OpenGL
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/IoFarmer.dir/all
+all: CMakeFiles/files.dir/all
+all: CMakeFiles/polygon.dir/all
+all: CMakeFiles/Graphics.dir/all
+all: CMakeFiles/glad.dir/all
+all: CMakeFiles/IoFarmer.out.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +75,145 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/IoFarmer.dir/clean
+clean: CMakeFiles/files.dir/clean
+clean: CMakeFiles/polygon.dir/clean
+clean: CMakeFiles/Graphics.dir/clean
+clean: CMakeFiles/glad.dir/clean
+clean: CMakeFiles/IoFarmer.out.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/IoFarmer.dir
+# Target rules for target CMakeFiles/files.dir
 
 # All Build rule for target.
-CMakeFiles/IoFarmer.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IoFarmer.dir/build.make CMakeFiles/IoFarmer.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IoFarmer.dir/build.make CMakeFiles/IoFarmer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles --progress-num=1,2 "Built target IoFarmer"
-.PHONY : CMakeFiles/IoFarmer.dir/all
+CMakeFiles/files.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/files.dir/build.make CMakeFiles/files.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/files.dir/build.make CMakeFiles/files.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles --progress-num=5,6 "Built target files"
+.PHONY : CMakeFiles/files.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/IoFarmer.dir/rule: cmake_check_build_system
+CMakeFiles/files.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IoFarmer.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/files.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 0
-.PHONY : CMakeFiles/IoFarmer.dir/rule
+.PHONY : CMakeFiles/files.dir/rule
 
 # Convenience name for target.
-IoFarmer: CMakeFiles/IoFarmer.dir/rule
-.PHONY : IoFarmer
+files: CMakeFiles/files.dir/rule
+.PHONY : files
 
 # clean rule for target.
-CMakeFiles/IoFarmer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IoFarmer.dir/build.make CMakeFiles/IoFarmer.dir/clean
-.PHONY : CMakeFiles/IoFarmer.dir/clean
+CMakeFiles/files.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/files.dir/build.make CMakeFiles/files.dir/clean
+.PHONY : CMakeFiles/files.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/polygon.dir
+
+# All Build rule for target.
+CMakeFiles/polygon.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/polygon.dir/build.make CMakeFiles/polygon.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/polygon.dir/build.make CMakeFiles/polygon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles --progress-num=9,10 "Built target polygon"
+.PHONY : CMakeFiles/polygon.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/polygon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/polygon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 0
+.PHONY : CMakeFiles/polygon.dir/rule
+
+# Convenience name for target.
+polygon: CMakeFiles/polygon.dir/rule
+.PHONY : polygon
+
+# clean rule for target.
+CMakeFiles/polygon.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/polygon.dir/build.make CMakeFiles/polygon.dir/clean
+.PHONY : CMakeFiles/polygon.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Graphics.dir
+
+# All Build rule for target.
+CMakeFiles/Graphics.dir/all: CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graphics.dir/build.make CMakeFiles/Graphics.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graphics.dir/build.make CMakeFiles/Graphics.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles --progress-num=1,2 "Built target Graphics"
+.PHONY : CMakeFiles/Graphics.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Graphics.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Graphics.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 0
+.PHONY : CMakeFiles/Graphics.dir/rule
+
+# Convenience name for target.
+Graphics: CMakeFiles/Graphics.dir/rule
+.PHONY : Graphics
+
+# clean rule for target.
+CMakeFiles/Graphics.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graphics.dir/build.make CMakeFiles/Graphics.dir/clean
+.PHONY : CMakeFiles/Graphics.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/glad.dir
+
+# All Build rule for target.
+CMakeFiles/glad.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles --progress-num=7,8 "Built target glad"
+.PHONY : CMakeFiles/glad.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 0
+.PHONY : CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: CMakeFiles/glad.dir/rule
+.PHONY : glad
+
+# clean rule for target.
+CMakeFiles/glad.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/clean
+.PHONY : CMakeFiles/glad.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/IoFarmer.out.dir
+
+# All Build rule for target.
+CMakeFiles/IoFarmer.out.dir/all: CMakeFiles/polygon.dir/all
+CMakeFiles/IoFarmer.out.dir/all: CMakeFiles/Graphics.dir/all
+CMakeFiles/IoFarmer.out.dir/all: CMakeFiles/glad.dir/all
+CMakeFiles/IoFarmer.out.dir/all: CMakeFiles/files.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IoFarmer.out.dir/build.make CMakeFiles/IoFarmer.out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IoFarmer.out.dir/build.make CMakeFiles/IoFarmer.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles --progress-num=3,4 "Built target IoFarmer.out"
+.PHONY : CMakeFiles/IoFarmer.out.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/IoFarmer.out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IoFarmer.out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/segfault/Projects/IoFarmer-OpenGL/CMakeFiles 0
+.PHONY : CMakeFiles/IoFarmer.out.dir/rule
+
+# Convenience name for target.
+IoFarmer.out: CMakeFiles/IoFarmer.out.dir/rule
+.PHONY : IoFarmer.out
+
+# clean rule for target.
+CMakeFiles/IoFarmer.out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IoFarmer.out.dir/build.make CMakeFiles/IoFarmer.out.dir/clean
+.PHONY : CMakeFiles/IoFarmer.out.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "IoFarmer-OpenGL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Graphics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Graphics-20f0ad516b5e9b06da22.json",
+					"name" : "Graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IoFarmer.out::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IoFarmer.out-d428856d31ef6ea02a92.json",
+					"name" : "IoFarmer.out",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-files-f0c9d662f766189c0f92.json",
+					"name" : "files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glad-e796c5d302dcedb9fba3.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "polygon::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-polygon-e0081b836abb2912dc1b.json",
+					"name" : "polygon",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/segfault/Projects/IoFarmer-OpenGL",
+		"source" : "/home/segfault/Projects/IoFarmer-OpenGL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

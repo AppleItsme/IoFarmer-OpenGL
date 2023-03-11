@@ -25,7 +25,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/Compiler/Clang-C.cmake"
   "/usr/share/cmake/Modules/Compiler/Clang.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU.cmake"
-  "/usr/share/cmake/Modules/FindGLEW.cmake"
   "/usr/share/cmake/Modules/FindOpenGL.cmake"
   "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake/Modules/FindPackageMessage.cmake"
@@ -34,7 +33,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake/Modules/Platform/Linux.cmake"
   "/usr/share/cmake/Modules/Platform/UnixPaths.cmake"
-  "/usr/share/cmake/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:
@@ -50,5 +48,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/IoFarmer.dir/DependInfo.cmake"
+  "CMakeFiles/files.dir/DependInfo.cmake"
+  "CMakeFiles/polygon.dir/DependInfo.cmake"
+  "CMakeFiles/Graphics.dir/DependInfo.cmake"
+  "CMakeFiles/glad.dir/DependInfo.cmake"
+  "CMakeFiles/IoFarmer.out.dir/DependInfo.cmake"
   )

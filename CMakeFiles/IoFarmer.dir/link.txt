@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/IoFarmer.dir/main.c.o -o IoFarmer  /usr/lib64/libglfw.so.3.3 -lGLEW /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so 
+/usr/bin/cc CMakeFiles/IoFarmer.dir/main.c.o -o IoFarmer  /usr/lib64/libglfw.so.3.3 -lGLEW -lm /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so 
